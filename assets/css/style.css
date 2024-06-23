@@ -49,8 +49,13 @@ a:hover {
 
 /* added new */
 h1{
+<<<<<<< HEAD
   font-family: roboto !important;
   font-style: italic !important;
+=======
+  font-family: Roboto !important;
+  font-style: italic !important ;
+>>>>>>> ee6f51a (latest commit)
 }
 /* added new */
 
