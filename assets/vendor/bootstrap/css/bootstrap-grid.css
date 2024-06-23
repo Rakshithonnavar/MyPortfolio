@@ -757,6 +757,7 @@
   }
 
   .col-lg-4 {
+    padding-bottom: 20px;
     flex: 0 0 auto;
     width: 33.3333333333%;
   }
