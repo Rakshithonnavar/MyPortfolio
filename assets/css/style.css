@@ -1077,7 +1077,7 @@ section .container {
   display: none;
   background: rgba(255, 255, 255, 0.08);
   background: #ff0937;
-  text-align: center;
+  text-align: center; 
   padding: 15px;
   font-weight: 600;
 }
@@ -1107,7 +1107,6 @@ section .container {
   box-shadow: none;
   border-color: white;
   border: 0.01;
-  
   font-size: 14px;
   background: rgba(255, 255, 255, 0.08);
   transition: 0.3s;
