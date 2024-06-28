@@ -1058,6 +1058,9 @@ section .container {
 .contact .php-email-form {
   padding: 30px;
   background: rgba(255, 255, 255, 0.08);
+  border-color: whitesmoke;
+  border: 0.5;
+  
 }
 
 .contact .php-email-form .error-message {
@@ -1134,6 +1137,7 @@ section .container {
 .contact .php-email-form textarea::placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
+  
 }
 
 .contact .php-email-form input {
