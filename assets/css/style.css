@@ -790,8 +790,8 @@ section .container {
   cursor: pointer;
   display: inline-block;
   padding: 8px 16px 10px 16px;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 620;
   line-height: 1;
   text-transform: uppercase;
   color: #fff;
@@ -804,6 +804,8 @@ section .container {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   background: #ff0937;
+  border: 0.5;
+  border-color: white;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1227,21 +1229,21 @@ section .container {
 }
 .wrapper{
   display: flex;
-  padding-bottom: 10px;
+  padding-bottom: 2px;
 }
 .wrapper .icon-container{
   position: relative;
   height: 45px;
-  width: 46px;
+  width: 45.5px;
   background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 10px;
-  border-radius: 22px;
+  margin: 0 7.8px;
+  border-radius: 24px;
   box-shadow: 0 5px 15px -5px rgb(0 0 0 / 10%);
   cursor: pointer;
-  font-size: 30px;
+  font-size: 32.5px;
   text-decoration: none;
   opacity: 0.99;
   overflow: hidden;
