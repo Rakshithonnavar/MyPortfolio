@@ -51,7 +51,8 @@ a:hover {
 h1{
 
   font-family: roboto !important;
-  font-style: italic !important;
+  font-style: italic !important; 
+   
 }
 /* added new */
 
@@ -1229,7 +1230,8 @@ section .container {
 }
 .wrapper{
   display: flex;
-  padding-bottom: 2px;
+  padding-top: -0.5px;
+  padding-bottom: 0.7px;
 }
 .wrapper .icon-container{
   position: relative;
