@@ -67,6 +67,12 @@ h3{
   font-family: "Raleway", sans-serif;
   color: yellow;
 }
+h7
+{
+ font-family:  "Raleway", sans-serif ;
+ font-weight: bold; 
+ font-size: larger;
+}
 
 /*--------------------------------------------------------------
 # Header
@@ -119,10 +125,15 @@ h3{
   margin: 0;
 }
 
-/* #header .social-links {
-  margin-top: 40px;
+#header .social-links {
+  margin-top: 26px;
   display: flex;
-} */
+  padding-left: 0px;
+  justify-content: left;
+  width: 100%;
+  align-items: flex-end;
+  
+}
 
 /* #header .social-links a {
   font-size: 16px;
@@ -1219,18 +1230,10 @@ section .container {
 *{
   box-sizing: border-box;
 }
-.social_icons{
+/* .wrapper{
   display: flex;
-  justify-content:center;
-  align-items: flex-end;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  width: 100%;
-}
-.wrapper{
-  display: flex;
-  padding-bottom: 2px;
-}
+ 
+} */
 .wrapper .icon-container{
   position: relative;
   height: 45px;
@@ -1239,7 +1242,7 @@ section .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 7.8px;
+  margin: 0 7.4px;
   border-radius: 24px;
   box-shadow: 0 5px 15px -5px rgb(0 0 0 / 10%);
   cursor: pointer;
@@ -1247,6 +1250,7 @@ section .container {
   text-decoration: none;
   opacity: 0.99;
   overflow: hidden;
+  padding-bottom: 2px;
   gap: 10px;
 }
 .wrapper .icon-container:nth-child(1){
