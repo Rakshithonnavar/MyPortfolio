@@ -1194,11 +1194,7 @@ section .container {
 *{
   box-sizing: border-box;
 }
-/* .wrapper{
-  display: flex;
-<<<<<<< HEAD
- 
-} */
+*
 
 .wrapper .icon-container{
   position: relative;
