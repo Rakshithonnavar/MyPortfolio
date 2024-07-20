@@ -1005,7 +1005,6 @@ section .container {
   font-weight: 700;
   margin: 10px 0 8px 68px;
 }
-
 .contact .info-box p {
   padding: 0;
   color: #fff;
@@ -1019,7 +1018,7 @@ section .container {
   display: flex;
 }
 
-.contact .info-box .social-links a {
+.contact .info-box .social-links a{
   font-size: 18px;
   display: inline-block;
   color: #fff;
