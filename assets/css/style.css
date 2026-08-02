@@ -478,6 +478,7 @@ section .container {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: #fff;
+  width: 85%;
 }
 
 .skills .progress .skill .val {
@@ -488,6 +489,8 @@ section .container {
 .skills .progress-bar-wrap {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 5px;
+  width: 85%;
+  overflow: hidden;
 }
 
 .skills .progress-bar {
@@ -496,6 +499,33 @@ section .container {
   transition: 0.9s;
   background-color: #11dbcf;
   border-radius: 5px;
+}
+
+/* Give each skill category the same timeline/vertical-line treatment as
+   Resume items (Research Paper Publication, Experience, etc.), plus
+   right-side breathing room so bars don't run edge-to-edge. */
+.skills .resume-item {
+  padding-right: 20px;
+  border-left: 1px solid #11dbcf;
+}
+
+/* Center the bullet exactly on the 1px line (16px circle, line at x:0
+   means left offset of -8px puts the circle's midpoint on the line). */
+.skills .resume-item::before {
+  left: -8px;
+}
+
+@media (max-width: 576px) {
+  .skills .resume-item {
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+  .skills .progress-bar-wrap {
+    width: 80%;
+  }
+  .skills .progress .skill {
+    width: 80%;
+  }
 }
 
 /*--------------------------------------------------------------
