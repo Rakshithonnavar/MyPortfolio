@@ -392,6 +392,10 @@ section .container {
   color: #11dbcf;;
 }
 
+.about-me .row {
+  align-items: center;
+}
+
 .about-me .content ul {
   list-style: none;
   padding: 0;
